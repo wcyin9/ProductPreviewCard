@@ -1,0 +1,154 @@
+* {
+ 	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+p, a{font-family: "Montserrat", sans-serif;}
+h1, .price { 
+	font-family: "Fraunces", serif;
+	font-size: 32px;
+	font-weight: 700;
+	line-height: 32px;
+}
+
+h1 {color: #1C232B;}
+
+img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+body {
+	height: 100vh;
+	overflow: hidden;
+	background-color: #F2EAE2;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	border-radius: 10px;
+	background-color: white;
+	margin: 2em 1.5em;
+	max-height: 611px;
+	max-width: 343px;
+}
+
+article {
+	padding: 1.5em;
+}
+
+.coverimg {
+	border-radius: 10px 10px 0 0;
+}
+
+.cost {
+	display: flex;
+	align-items: center;
+}
+
+.perfume {
+	color: #6C7289;
+	font-weight: 500;
+	font-size: 12px;
+	letter-spacing: 5px;
+	text-transform:uppercase;
+	padding-bottom: 20px;
+}
+
+.price {
+	color: #3D8168;
+	margin-right: 20px;
+}
+
+.discount {
+	text-decoration: line-through;
+	color: #6C7289;
+}
+
+.desc {
+	font-size: 14px;
+	line-height: 23px;
+	color: #6C7289;
+	padding: 20px 0;
+	font-weight: 500;
+}
+
+.button {
+	background-color: #3D8168;
+	color: white;
+	height: 48px;
+	border-radius: 8px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0 5px;
+	font-size: 14px;
+	font-weight: 700;
+	text-decoration: none;
+	
+}
+
+.button:hover { 
+	background-color: #1A4032;
+	cursor: pointer;
+	transition: all 0.5s ease-out;
+}
+
+.button img {
+	margin-right: 10px;
+}
+
+footer {
+	position: absolute;
+	padding: 0 20px;
+	bottom: 5px;
+	text-align: center;
+/*	color: black;*/
+	font-size: 15px;
+	
+}
+
+footer a{ 
+	text-decoration: none; 
+	color: palevioletred;
+	font-weight: 500;
+	text-shadow: 1px 1px 2px lightgray;
+}
+
+footer a:hover {color: forestgreen;}
+footer a:active {color: mediumpurple;}
+
+@media (min-width: 640px) {
+	.container {
+		display: grid;
+		grid-template-columns: 1fr 1fr;
+		max-width: 600px;
+		max-height: 450px;
+	}
+	
+	.coverimg {
+		border-radius: 10px 0 0 10px;
+	}
+	
+	article {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	
+	.desc {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	
+	.cost {margin-bottom: 30px;}
+	
+	.button {
+		padding-bottom: 0;
+		margin-bottom: 0;
+	}
+} 
