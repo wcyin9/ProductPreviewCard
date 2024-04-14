@@ -142,11 +142,11 @@ footer a:active {color: mediumpurple;}
 	}
 	
 	.desc {
-		padding-top: 30px;
-		padding-bottom: 30px;
+		padding-top: 25px;
+		padding-bottom: 25px;
 	}
 	
-	.cost {margin-bottom: 30px;}
+	.cost {margin-bottom: 25px;}
 	
 	.button {
 		padding-bottom: 0;
@@ -154,6 +154,6 @@ footer a:active {color: mediumpurple;}
 	}
 
 	.perfume {
-		padding-top: 10px;
+		padding-top: 8px;
 	}
 } 
