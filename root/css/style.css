@@ -68,6 +68,7 @@ article {
 .discount {
 	text-decoration: line-through;
 	color: #6C7289;
+	font-size: 13px;
 }
 
 .desc {
@@ -150,5 +151,9 @@ footer a:active {color: mediumpurple;}
 	.button {
 		padding-bottom: 0;
 		margin-bottom: 0;
+	}
+
+	.perfume {
+		padding-top: 10px;
 	}
 } 
